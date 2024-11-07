@@ -1,0 +1,10 @@
+/* Start active and inactive users status */
+.inactive {
+    color: orange;
+    font-weight: bold;
+}
+
+.active {
+    color: green;
+    font-weight: bold;
+}

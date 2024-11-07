@@ -1,0 +1,14 @@
+package com.duongw.universalpetcare.event;
+
+import com.duongw.universalpetcare.model.User;
+import org.springframework.context.ApplicationEvent;
+
+public class RegistrationCompleteEvent extends ApplicationEvent {
+
+    private User user;
+    public RegistrationCompleteEvent(User user) {
+        super(user);
+        this.user = user;
+    }
+
+}

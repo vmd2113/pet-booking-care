@@ -1,0 +1,2 @@
+package com.duongw.universalpetcare.repository;public interface VerificationRepository {
+}

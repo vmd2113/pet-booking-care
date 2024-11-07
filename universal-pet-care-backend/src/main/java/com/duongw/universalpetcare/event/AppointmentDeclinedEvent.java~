@@ -1,0 +1,13 @@
+package com.duongw.universalpetcare.event;
+
+import com.duongw.universalpetcare.model.Appointment;
+import org.springframework.context.ApplicationEvent;
+
+public class AppointmentDeclinedEvent extends ApplicationEvent {
+    private Appointment appointment;
+
+    public AppointmentDeclinedEvent(Appointment appointment ) {
+        super(appointment);
+        this.appointment = appointment;
+    }
+}

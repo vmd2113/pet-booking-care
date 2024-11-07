@@ -1,0 +1,4 @@
+package com.duongw.universalpetcare.dto.request;
+
+public class VerificationTokenRequest {
+}
